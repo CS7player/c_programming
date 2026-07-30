@@ -4,6 +4,8 @@ int main() {
  int i, count = 0;
  int *b = a + 4;
  for (i = 0; i < 5; i++)
-  count = count + (*b-- - i);
+  count = count + (*b---i);
  return 0;
 }
+
+//The final value of count is ______
