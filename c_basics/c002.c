@@ -3,7 +3,7 @@ int main(){
  int a[] = {1,2,3,4,5};
  int *ptr = a;
  ptr += sizeof(2*a[0]);
- printf("%d",*(ptr-2));
+ printf("%d\n",*(ptr-2));
  return 0;
 }
 

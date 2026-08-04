@@ -11,7 +11,7 @@ int func(int *p,int n){
 int main(){
  int a[]={7,1,3,5,2};
  int (*ptr)(int *,int) = func;
- printf("%d",(*ptr)(a,5));
+ printf("%d\n",(*ptr)(a,5));
  return 0;
 }
 
